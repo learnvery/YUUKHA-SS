@@ -1,0 +1,62 @@
+changeBg:a1.png
+？？？:要开始了吗？;
+学姐们……刚刚还在这里的！可恶……;
+只好由我一个人演示了。;
+intro:这是一个由悲伤开始……|……|……至完满为终的青春物语。;
+bgm:bgm1.mp3;
+？？？:大家好，首先自我介绍！;
+changeFigure:五月sm1.png;
+？？？:我的名字是五月，姓氏是春野，这个时代芳华正茂的十六岁少女一位~;
+春野五月:你说这个名字很大众？诶嘿嘿，本来我就是不怎么出众的人呀。;
+喂！你在朝哪里看呢！;
+changeFigure:五月yh2.png -next;
+setFigTransform:scale(1.25,1.25) -center;
+春野五月:我就知道！我就知道每个人都会盯着这里……;
+你:哪里？;
+setFigTransform:scale(1.15,1.15) -center;
+changeFigure:五月yh1.png -next
+setFigTransform:scale(1.35,1.35) -center;
+春野五月:胸……胸部！;
+setFigTransform:scale(1.15,1.15) -center;
+不要死死地盯着看啦！很害羞的啦！;
+setFigTransform:scale(1.25,1.25) -center;
+这样下去都没法继续介绍了……;
+changeFigure:五月cry1.png
+你:那就这样继续介绍吧。;
+春野五月:怎么这样！;
+太欺负人了……但是……（要忍住）这是大家的请求……（泪目）;
+就继续介绍了。;
+五月:《雀舞悠华》是由满开之萤独立写作的一本小说故事。故事发生在科幻与神异现象交织的现代社会，主角们代表各自的信念，通过「麻将」这一媒介相互交流，最终得到想要的答案。
+话说回来，您对麻将有一定理解吗？
+choose:我可是身经百战了。:label_1|懂一点。:label_2|完全不懂，只是萌五月而来。:label_3;
+label:label_1;
+changeFigure:五月sm1.png -next;
+setFigAni:shake 0.75s -center;
+五月:偶吼吼，看来遇到高手了，让我来问几个问题吧！;
+答对有奖励！;
+先是最基础的！以下哪一个役不含有一番的役种？;
+choose:一气通贯:label_2|混全带幺九:label_2|三色同顺:label_2|三色同刻:label_4;
+label:label_4;
+五月:这能回答出来的话……看来不是新手了呢，下一题！;
+和牌立直平和三色同顺获得的点数可能有哪一项？;
+choose:7800:label_2|9600:label_2|11700:label_5|11900:label_2;
+label:label_5;
+五月:什么？这道题比上一道还要简单？骗人的吧……;
+哼！最后一题了！听好。;
+不含宝牌，带有平和的和牌最大能够达到多少番数？;
+choose:13:label_6|12:label_2|10:label_2|8:label_2
+label:label_6;
+五月:恭喜你！全部答对了！
+以后不懂的看来可以向你请教啦~
+jumpLabel:end;
+label:label_2;
+changeFigure:五月sm2.png -next;
+五月:没关系！接下来的故事中学姐们会手把手教你麻将规则的！;
+jumpLabel:end;
+label:label_3;
+changeFigure:五月yh2.png -next;
+setFigTransform:scale(1.4,1.4) -center;
+五月:无关人士给我走开啦！;
+jumpLabel:end;
+label:end;
+五月:本次介绍到此结束！;
