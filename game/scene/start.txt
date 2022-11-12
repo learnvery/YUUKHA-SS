@@ -5,23 +5,23 @@ changeBg:a1.png
 intro:这是一个由悲伤开始……|……|……至完满为终的青春物语。;
 bgm:bgm1.mp3;
 ？？？:大家好，首先自我介绍！;
-changeFigure:五月sm1.png;
+changeFigure:may1.png;
 ？？？:我的名字是五月，姓氏是春野，这个时代芳华正茂的十六岁少女一位~;
 春野五月:你说这个名字很大众？诶嘿嘿，本来我就是不怎么出众的人呀。;
 喂！你在朝哪里看呢！;
-changeFigure:五月yh2.png -next;
+changeFigure:may4.png -next;
 setFigTransform:scale(1.25,1.25) -center;
 春野五月:我就知道！我就知道每个人都会盯着这里……;
 你:哪里？;
 setFigTransform:scale(1.15,1.15) -center;
-changeFigure:五月yh1.png -next
+changeFigure:may3.png -next
 setFigTransform:scale(1.35,1.35) -center;
 春野五月:胸……胸部！;
 setFigTransform:scale(1.15,1.15) -center;
 不要死死地盯着看啦！很害羞的啦！;
 setFigTransform:scale(1.25,1.25) -center;
 这样下去都没法继续介绍了……;
-changeFigure:五月cry1.png
+changeFigure:may5.png
 你:那就这样继续介绍吧。;
 春野五月:怎么这样！;
 太欺负人了……但是……（要忍住）这是大家的请求……（泪目）;
@@ -30,11 +30,11 @@ changeFigure:五月cry1.png
 话说回来，您对麻将有一定理解吗？
 choose:我可是身经百战了。:label_1|懂一点。:label_2|完全不懂，只是萌五月而来。:label_3;
 label:label_1;
-changeFigure:五月sm1.png -next;
+changeFigure:may1.png -next;
 setFigAni:shake 0.75s -center;
 五月:偶吼吼，看来遇到高手了，让我来问几个问题吧！;
 答对有奖励！;
-先是最基础的！以下哪一个役不含有一番的役种？;
+先是最基础的！以下哪一个役不含有一番的可能性？;
 choose:一气通贯:label_2|混全带幺九:label_2|三色同顺:label_2|三色同刻:label_4;
 label:label_4;
 五月:这能回答出来的话……看来不是新手了呢，下一题！;
@@ -46,17 +46,40 @@ label:label_5;
 不含宝牌，带有平和的和牌最大能够达到多少番数？;
 choose:13:label_6|12:label_2|10:label_2|8:label_2
 label:label_6;
-五月:恭喜你！全部答对了！
-以后不懂的看来可以向你请教啦~
+五月:恭喜你！全部答对了！;
+以后不懂的看来可以向你请教啦~;
+什么？奖励？;
+changeFigure:may3.png
+setFigAni:moveBaF 0.5s -center -next;
+其实我根本没想到有人能答对学姐出的这三道题……;
+以后再补偿可以吗？;
+你:…………;
+……;
 jumpLabel:end;
 label:label_2;
-changeFigure:五月sm2.png -next;
+changeFigure:may2.png -next;
 五月:没关系！接下来的故事中学姐们会手把手教你麻将规则的！;
 jumpLabel:end;
 label:label_3;
-changeFigure:五月yh2.png -next;
+changeFigure:may4.png -next;
 setFigTransform:scale(1.4,1.4) -center;
 五月:无关人士给我走开啦！;
 jumpLabel:end;
 label:end;
 五月:本次介绍到此结束！;
+setFigTransform:scale(1,1) -center;
+？？？:还没有哦。;
+changeFigure:may3.png -next;
+？？？？:我们到了。;
+？？？？:让五月一个人表演这么久也够了。;
+changeFigure:sy2.png -centre;
+？？？？:秋堇莳雨。;
+changeFigure:lm1.png -left;
+？？？？:我是夏海璃梦，和五月一样是第一年。;
+changeFigure:yuki1.png -right;
+？？？:冬苑雪is me，身份是老师。;
+changeFigure:none -right;
+changeFigure:none -left;
+秋堇莳雨:以后的故事就由我们与你一起经历啦，拜拜！;
+大家:拜拜~
+end;
